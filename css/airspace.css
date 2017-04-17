@@ -684,7 +684,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: #47424C;
   border: none;
   color: #fff;
-  font-family: 'Raleway', serif;
+  font-family: 'Merriweather', serif;
   font-size: 18px;
 }
 /*--
@@ -729,7 +729,7 @@ font header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Raleway', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;

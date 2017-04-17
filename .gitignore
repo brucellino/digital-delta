@@ -1,10 +1,6 @@
-
-_site/
-.sass-cache/
-*.swp
-pkg/
-test/
-_deploy/*
-Rakefile
-.jekyll-metadata
-/.idea/
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+.DS_Store
+.bak

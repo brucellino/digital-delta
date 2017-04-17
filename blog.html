@@ -1,21 +1,10 @@
 ---
 layout: page
-title: Blog
+title: This is our voice
+descripition: We've learned a lot over the years, and have a lot to say. This is our voice.
 permalink: /blog/
 ---
-<!-- Slider Start -->
-<section id="global-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1>This is our voice</h1>
-          <p>We've learned a lot over the years, and have a lot to say. This is our voice.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 {% for post in site.posts %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>

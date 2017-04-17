@@ -1,11 +1,12 @@
+sudo: false # route your build to the container-based infrastructure for a faster build
 language: ruby
-
 rvm:
-- 2.2.2
-
-install: gem install jekyll jekyll-paginate jemoji html-proofer
-script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --empty-alt-ignore
-
+  - 2.1
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true JEKYLL_ENV=production
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+before_script:
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproofer ./_site
