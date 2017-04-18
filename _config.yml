@@ -18,7 +18,7 @@ title: "There  once was a plan"
 subtitle: "Stories never told"
 url: "http://brucellino.github.io/" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/research"
+baseurl: "/digital-delta"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
